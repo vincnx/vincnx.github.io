@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+}
+
+/* navbar */
+.navbar{
+    font-family: helvetica;
+    background-color: whitesmoke;
+    height: 50;
+}
+.navbar-content{
+    margin: 0 75 0 75;
+    height: 50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(42, 42, 42);
+}
+.navbar-content a{
+    text-decoration: none;
+    color: rgb(42, 42, 42);
+}
+.navbar-content h6{
+    text-align: center;
+}
+#nav-btn{
+    font-size: 12px;
+    font-weight: bold;
+}
+#nav-btn a{
+    margin: 0 30 0 0;
+}
+#nav-btn a:hover{
+    font-weight: 100;
+}
+#soc-btn a{
+    margin: 0 0 0 30;
+}
+
+/* section 2 */
+.sec-2bg{
+    width: 45%;
+    display: flex;
+    margin: auto;
+}
+.sec-2bg p{
+    font-size: 50;
+    text-align: center;
+    margin: 20;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(43, 43, 43);
+}
+.sec-2bg p span{
+    background: linear-gradient(
+        to bottom,
+        transparent 60%,
+        yellow 40%
+    )
+}
+
+/* section 3 */
+.sec-3{
+    margin: 0 75 0 75;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+/* img */
+.img{
+    width: 30%;
+    height: 100%;
+}
+#Img-bg{
+    background-color: rgb(43, 43, 43); 
+    border-radius: 0 150px 100px 0;
+    width: 80%;
+    height: 100%;
+}
+.img img{
+    height: 400;
+}
+/* sec-4 */
+.sec-4{
+    /* background-color: green; */
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: rgb(43, 43, 43);
+}
+.sec-4 div{
+    margin: 0 0 0 50;
+}
+.sec-4 h1{
+    font-family: helvetica;
+    margin: 0;
+}
+#div1 p{
+    font-family: verdana;
+    font-size: 20;
+    margin: 30 0 30 0;
+}
+.sec-4 div button{
+    border: none;
+    text-decoration: none;
+    padding: 15px 20;
+    border-radius: 100px;
+    font-size: 15;
+    font-weight:600;
+    font-family: helvetica;
+    letter-spacing: 1.5;
+    cursor: pointer;
+    color: rgb(43, 43, 43);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+.sec-4 div button:hover{
+    color: white;
+    background-color: rgb(43, 43, 43);
+}
+
+/* skills */
+#div2 table{
+    height: 200;
+    background: whitesmoke;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: helvetica;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 30 0 ;
+}
+#div2 tr{
+    border-top: 1px solid rgb(43, 43, 43);
+}
+#div2 th{
+    background: rgb(43, 43, 43);
+    color: whitesmoke;
+}
+#div2 td{
+    padding: 12px 25px;
+}

@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bec4b8746b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/styleindex.css">
+    <title>Vincent's portfolio</title>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="navbar">
+        <!-- navbar content -->
+        <div class="navbar-content">
+            <!-- btn -->
+            <div id="nav-btn">
+                <a href="works.html">WORKS</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
+            <!-- logo -->
+            <a href="index.html"><h6>VINCENT.<br>PORTFOLIO</h6></a>
+            <!-- social media -->
+            <div id="soc-btn">
+                <a href="https://github.com/vincnx"><i class="fa-brands fa-github fa-sm"></i></a>
+                <a href="https://www.instagram.com/_vincentexelcio/"><i class="fa-brands fa-instagram fa-sm"></i></a>
+                <a href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-twitter fa-sm"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- section 2 -->
+    <div  class="sec-2bg">
+        <p>Hi, I'm <span>Vincent Exelcio</span>,<br>a Computer Science student from UKSW.</p>
+    </div>
+    <!-- section 3 -->
+    <div class="sec-3">
+        <!-- img -->
+        <div class="img">
+            <div id="img-bg">
+                <img src="img/foto_almet_no_bg.png" alt="image">
+            </div>
+        </div>
+        <!-- section 4 -->
+        <div class="sec-4">
+            <!-- about me -->
+            <div id="div1" style="display: block;">
+                <h1>About Me</h1>
+                <p align="justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat vitae ratione voluptatibus, voluptate dolore officiis, mollitia, debitis totam aliquam assumenda quos! Magnam reiciendis quod alias maiores, deleniti praesentium et pariatur commodi sunt amet tempora. Iure inventore labore, quod dolorem non voluptatum modi ex dicta expedita. Rem quidem placeat ut debitis assumenda ab cum recusandae ea. Officiis quidem rerum neque at, veritatis odio quod officia cum minima blanditiis! Id, autem laboriosam?</p>
+                <button onclick="replace()">SKILLS</button>
+            </div>
+            <!-- skills -->
+            <div id="div2" style="display: none;">
+                <h1>My Skills</h1>
+                <table>
+                    <tr>
+                        <th>Programming Language</th>
+                        <th>Scale</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>8/10</td>
+                        <td>Have Knowledge in several Python libraries, such as numpy, pandas, matplotlib, scikit-learn.</td>
+                    </tr>
+                    <tr>
+                        <td>C</td>
+                        <td>6/10</td>
+                        <td>Know The general Things From C Language.</td>
+                    </tr>
+                </table>
+                <button onclick="replace2()">About Me</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    function replace(){
+        document.getElementById("div1").style.display = "none"; 
+        document.getElementById("div2").style.display = "block"; 
+    }
+    function replace2(){
+        document.getElementById("div2").style.display = "none"; 
+        document.getElementById("div1").style.display = "block"; 
+    }
+</script>
